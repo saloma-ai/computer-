@@ -20,19 +20,13 @@ async function search() {
           <h3>مقدمة تطبيقات الحاسب</h3>
           <p>${student.computer}</p>
         </div>
-        <div class="degree-box">
-          <h3>مبادئ إدارة الاعمال</h3>
-          <p>${student.biss}</p>
-        </div>
-        <div class="degree-box">
-          <h3>اللغة الإنجليزية</h3>
-          <p>${student.english}</p>
-        </div>
+       
       </div>
     `;
   } else {
     resultDiv.innerHTML = "❌ لا توجد نتيجة لرقم الهوية";
   }
 }
+
 
 
